@@ -30,7 +30,9 @@ div {
 }
 
 #hour-frame {
-    
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 #am-pm-frame {
