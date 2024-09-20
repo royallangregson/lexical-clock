@@ -1,3 +1,70 @@
-#test {
-    background-color: rgb(221, 145, 31);
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+#clock-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#it-is {
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+}
+
+#minutes-frame, #past-till-frame, #hours-frame, #am-pm-frame {
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+}
+
+.hidden {
+    display: none;
+}
+
+.words {
+    /* Font Properties */
+    font-family: "League Gothic", sans-serif;
+    font-size: 156px;
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    word-spacing: normal;
+
+    /* Text Alignment and Decoration */
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-indent: 0;
+    text-overflow: clip;
+    white-space: normal;
+    vertical-align: baseline;
+    direction: ltr;
+
+    /* Color and Shadow */
+    color: #ffffff;
+    text-shadow: none;
+
+    /* Spacing and Wrapping */
+    word-wrap: normal;
+    overflow-wrap: normal;
+    line-break: auto;
+
+    /* Other Text Properties */
+    text-justify: auto;
+    hyphens: none;
+    writing-mode: horizontal-tb;
+    unicode-bidi: normal;
+    tab-size: 8;
 }
