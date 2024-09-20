@@ -10,42 +10,43 @@
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div id="clock-block">
+<body onload="main()">
 
-        <div id="it-is-frame">
-            <div id="it-is" class="words it-is">it is</div>
+    <div id="clock-block" class="container">
+
+        <div id="it-is-frame" class="frame">
+            <div id="it-is" class="active words it-is">it is</div>
         </div>
     
-        <div id="minutes-frame">
-            <div id="minutes-five" class="words minute">five</div>
-            <div id="minutes-ten" class="words minute">ten</div>
-            <div id="minutes-quarter" class="words minute">a quarter</div>
-            <div id="minutes-twenty" class="words minute">twenty</div>
-            <div id="minutes-half" class="words minute">half</div>
+        <div id="minute-frame" class="frame">
+            <div id="minute-five" class="words minute">five</div>
+            <div id="minute-ten" class="words minute">ten</div>
+            <div id="minute-quarter" class="words minute">a quarter</div>
+            <div id="minute-twenty" class="words minute">twenty</div>
+            <div id="minute-half" class="words minute">half</div>
         </div>
     
-        <div id="past-till-frame">
+        <div id="past-till-frame" class="frame">
             <div id="past" class="words past-till">past</div>
             <div id="till" class="words past-till">till</div>
         </div>
     
-        <div id="hours-frame">
-            <div id="hours-one" class="words hour">one</div>
-            <div id="hours-two" class="words hour">two</div>
-            <div id="hours-three" class="words hour">three</div>
-            <div id="hours-four" class="words hour">four</div>
-            <div id="hours-five" class="words hour">five</div>
-            <div id="hours-six" class="words hour">six</div>
-            <div id="hours-seven" class="words hour">seven</div>
-            <div id="hours-eight" class="words hour">eight</div>
-            <div id="hours-nine" class="words hour">nine</div>
-            <div id="hours-ten" class="words hour">ten</div>
-            <div id="hours-eleven" class="words hour">eleven</div>
-            <div id="hours-eleven" class="words hour">twelve</div>
+        <div id="hour-frame" class="frame">
+            <div id="hour-one" class="words hour">one</div>
+            <div id="hour-two" class="words hour">two</div>
+            <div id="hour-three" class="words hour">three</div>
+            <div id="hour-four" class="words hour">four</div>
+            <div id="hour-five" class="words hour">five</div>
+            <div id="hour-six" class="words hour">six</div>
+            <div id="hour-seven" class="words hour">seven</div>
+            <div id="hour-eight" class="words hour">eight</div>
+            <div id="hour-nine" class="words hour">nine</div>
+            <div id="hour-ten" class="words hour">ten</div>
+            <div id="hour-eleven" class="words hour">eleven</div>
+            <div id="hour-eleven" class="words hour">twelve</div>
         </div>
     
-        <div id="am-pm-frame">
+        <div id="am-pm-frame" class="frame">
             <div id="am" class="words am-pm">am</div>
             <div id="pm" class="words am-pm">pm</div>
         </div>

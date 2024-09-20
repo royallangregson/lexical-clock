@@ -13,22 +13,79 @@ div {
 
 }
 
+#it-is-frame {
+    
+}
+
 #it-is {
 
 }
 
+#minute-frame {
+    
+}
+
+#past-till-frame {
+    
+}
+
+#hour-frame {
+    
+}
+
+#am-pm-frame {
+    
+}
+
+.container {
+
+}
+
+.frame {
+    border: 3px solid #b02323;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.it-is {
+    
+}
+
+.minute {
+    
+}
+
+.past-till {
+    
+}
+
+.hours {
+    
+}
+
+.am-pm {
+
+}
+    
 .hidden {
     display: none;
+}
+
+.active.words {
+    color: aquamarine;
+    text-shadow: 5px 3px 5px #b02323;
 }
 
 .words {
     /* Font Properties */
     font-family: "League Gothic", sans-serif;
-    font-size: 156px;
+    font-size: 120px;
     font-weight: 900;
     font-style: normal;
     font-variant: normal;
-    font-stretch: normal;
+    font-stretch: condensed;
     line-height: normal;
     letter-spacing: normal;
     word-spacing: normal;
