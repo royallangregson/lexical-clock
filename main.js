@@ -10,7 +10,7 @@ function updateTime() {
     const curHr = curTime.getHours(); // Pass this into updateHrs function
     updateMin(curMin);
     updatePastTill(curMin);
-    updateHrs(curHr); // HW: Write update hour function
+    updateHrs(curHr, curMin); // HW: Write update hour function
     updateAMPM(curHr);
 }
 
@@ -37,13 +37,13 @@ function updateMin(curMin) {
     if (n >= 13 && n <= 17 || n >= 43 && n <= 47) toggleActiveClass('minute-quarter', 'minute-frame');
     if (n >= 18 && n <= 25 || n >= 35 && n <= 42) toggleActiveClass('minute-twenty', 'minute-frame');
     if (n >= 26 && n <= 34) toggleActiveClass('minute-half', 'minute-frame');
+    if (n <= 2 || n >= 58) removeActiveClassFromContainer('minute-frame');
 
     console.log(`${curMin}`)
 }
 
 function updateHrs(curHr, curMin) {
     curHr = curMin < 43 ? roundHrs(curHr) : roundHrs(curHr) + 1;
-    console.log(curHr + '!!!');
 // HINT use switch statement instead of if
     switch (curHr) {
         case 0:

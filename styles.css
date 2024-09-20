@@ -30,9 +30,9 @@ div {
 }
 
 #hour-frame {
-    display: grid;
+    /* display: grid;
     grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); */
 }
 
 #am-pm-frame {
@@ -40,11 +40,14 @@ div {
 }
 
 .container {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* gap: 50px; */
 }
 
 .frame {
-    border: 3px solid #b02323;
+    /* border: 3px solid #b02323; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -76,11 +79,13 @@ div {
 }
 
 .active.words {
+    display: inline-block;
     color: aquamarine;
     text-shadow: 5px 3px 5px #b02323;
 }
 
 .words {
+    display: none;
     /* Font Properties */
     font-family: "League Gothic", sans-serif;
     font-size: 120px;
