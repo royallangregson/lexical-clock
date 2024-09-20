@@ -10,20 +10,11 @@ div {
 }
 
 #clock-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#it-is {
-    display: flex;
-    justify-content: space-around;
-    width: fit-content;
+
 }
 
-#minutes-frame, #past-till-frame, #hours-frame, #am-pm-frame {
-    display: flex;
-    justify-content: space-around;
-    width: fit-content;
+#it-is {
+
 }
 
 .hidden {
